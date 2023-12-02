@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/fsd.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="icon" href="./images/logo_sin_texto.jpg">
+  <title>Full Stack Developer - Primera Entrega</title>
+</head>
+<body>
+  <div class="conteiner">
+    <header>
+      <section class="logo">
+        <a href="http://127.0.0.1:5500/cliente/index.html"><img src="./images/logo_con_texto.jpg" alt="Logo de la Empresa FSD" title="Full Stack Developer"></a>  
+      </section>
+      <nav>
+        <ul>
+          <li><a href="http://127.0.0.1:5500/cliente/index.html" target="_self">INICIO</a></li>
+          <li><a href="./html/contacto.html" target="_blank">CONTACTO</a></li>
+          <li><a href="./html/mensajes.html" target="_blank">MENSAJES</a></li>
+        </ul>
+      </nav>
+      <div class="nav-icon" onclick="toggleMenu()">&#9776;</div>
+    </header>
+    <section class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/banner/banner.jpg" alt="Imagen banner 1"></div>
+          <div class="swiper-slide"><img src="./images/banner/banner_2.jpg" alt="Imagen banner 2"></div>
+          <div class="swiper-slide"><img src="./images/banner/banner_3.jpg" alt="Imagen banner 3"></div>
+          <div class="swiper-slide"><img src="./images/banner/banner_4.jpg" alt="Imagen banner 4"></div>
+          <div class="swiper-slide"><img src="./images/banner/banner_5.jpg" alt="Imagen banner 5"></div>
+          <div class="swiper-slide"><img src="./images/banner/banner_6.jpg" alt="Imagen banner 6"></div>
+          <div class="swiper-slide"><img src="./images/banner/banner_7.jpg" alt="Imagen banner 7"></div>
+          <div class="swiper-slide"><img src="./images/banner/banner_8.jpg" alt="Imagen banner 8"></div>
+          <div class="swiper-slide"><img src="./images/banner/banner_9.jpg" alt="Imagen banner 9"></div>
+          <div class="swiper-slide"><img src="./images/banner/banner_10.jpg" alt="Imagen banner 10"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </section>
+    <main>
+      <h1>DISEÑO DE INTERIORES</h1>
+      <p class="p-h1">Ofrecemos una amplia gama de productos originales y de primera calidad para ese lugar que sueñas. No dudes en consultarnos para tener tu diseño a medida.</p>
+      <section class="galeria">
+        <h2>GALERÍA DE IMÁGENES</h2>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempora fugit nesciunt natus officiis quo cupiditate laudantium, consequuntur dolores nihil minima, sunt sint quam in vel commodi quia nobis harum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dicta ipsa reiciendis non quasi laborum maxime corporis, voluptatibus suscipit delectus architecto dolore cumque ipsum ex vel, ducimus, veniam deleniti neque!</p>
+        <img src="./images/g1.jpg" alt="Imagen de galeria">
+        <img src="./images/g2.jpg" alt="Imagen de galeria">
+        <img src="./images/g3.jpg" alt="Imagen de galeria">
+        <img src="./images/g4.jpg" alt="Imagen de galeria">
+        <img src="./images/g5.jpg" alt="Imagen de galeria">
+        <img src="./images/g6.jpg" alt="Imagen de galeria">
+      </section>
+      <section class="servicios">
+        <h2>SERVICIOS</h2>
+        <p class="p-servicios">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rem, cumque qui quos molestiae maiores tenetur, architecto, aliquid iusto perferendis ducimus natus. Dolore commodi, praesentium in ex suscipit ea fugit.</p>
+        <article>
+          <img src="./images/s1.jpg" alt="Imagen Servicio Decoracion residencial">
+          <h3>DECORACIÓN RESIDENCIAL</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod nihil quibusdam sapiente, rerum temporibus voluptatum, perferendis aut explicabo dolores tempora laudantium ab exercitationem, modi sunt. Delectus cupiditate ipsam sed optio?</p>
+          <button>LEER INFORMACIÓN</button>
+        </article>
+        <article>
+          <img src="./images/s2.jpg" alt="Imagen Servicio Decoracion Comercial">
+          <h3>DECORACIÓN COMERCIAL</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod nihil quibusdam sapiente, rerum temporibus voluptatum, perferendis aut explicabo dolores tempora laudantium ab exercitationem, modi sunt. Delectus cupiditate ipsam sed optio?</p>
+          <button>LEER INFORMACIÓN</button>
+        </article>
+        <article>
+          <img src="./images/s3.jpg" alt="Imagen Servicio Decoracion de Oficina">
+          <h3>DECORACIÓN DE OFICINA</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod nihil quibusdam sapiente, rerum temporibus voluptatum, perferendis aut explicabo dolores tempora laudantium ab exercitationem, modi sunt. Delectus cupiditate ipsam sed optio?</p>
+          <button>LEER INFORMACIÓN</button>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div id="logo-footer">
+          <img src="./images/logo_con_texto2.jpg" alt="Logo de la Empresa FSD">
+        </div>
+        <div id="empresa-footer">
+          <h4>EMPRESA</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente illo assumenda, harum repudiandae repellendus porro vero dignissimos unde deleniti! Repellat natus ratione hic, optio veritatis incidunt. Iure, possimus distinctio.</p>
+        </div>
+        <div id="contacto-footer">
+          <h4>CONTÁCTANOS</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5502.811500101778!2d-56.200529599474876!3d-34.90666798392421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802b6753b221%3A0x3257eb39860f05a6!2sPalacio%20Salvo!5e0!3m2!1ses!2sro!4v1700860743175!5m2!1ses!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <img src="./images/icons/fono.png" alt="Icono de telefono">
+          <p class="p-contacto">Call +01 1234567890</p>
+          <img src="./images/icons/direccion.png" alt="Icono de email">
+          <p class="p-contacto">demo@gmail.com</p>
+        </div>
+        <div id="redes-footer">
+          <h4>SÍGUENOS POR</h4>
+          <img src="./images/icons/facebook.png" alt="Icono Facebook">
+          <img src="./images/icons/tw.png" alt="Icono Twitter">
+          <img src="./images/icons/linkedin.png" alt="Icono Linkedin">
+          <img src="./images/icons/instagram.png" alt="Icono Instagram">
+        </div>
+      </section>
+      <section id="derechos-footer">
+        <p>&copy; 2023 Creado por Hera222 - Todos los Derechos Reservados</p>
+      </section>
+    </footer>
+    
+  </div>
+  <script src="./js/fsd.js"></script>
+</body>
+</html>

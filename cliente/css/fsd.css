@@ -1,0 +1,394 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  display: flex;
+  background-color: rgb(42, 45, 71);
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo{
+  width: 7%;
+  cursor: pointer;
+}
+header .logo img{
+  width: 80%;
+  padding: 5px;
+  border-radius: 15px;
+}
+header nav{
+  width: 60%;
+  align-items: end;
+}
+header nav ul{
+  list-style: none;
+  padding: 20px;
+}
+header nav ul li {
+  border: 2px solid rgb(214, 212, 212);
+  border-radius: 2px;
+  display: inline-flex;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+header nav ul li:hover{
+  background-color: grey;
+}
+header nav ul li a {
+  color: rgb(214, 212, 212);
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+header .nav-icon{
+  width: 5%;
+  color: rgb(214, 212, 212);
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: none;
+}
+.swiper-container{
+  overflow: hidden;
+  position: relative;
+}
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img{
+  width: 99vw;
+  height: 70vh;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  align-items: center;
+  text-align: center;
+  margin: 10px 40px;
+}
+
+main h1{
+  text-align: center;
+  color: rgb(42, 45, 71);
+  margin: 15px 0;
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+.p-h1{
+  justify-content: center;
+  font-size: 1.3rem;
+  padding: 5px 0 10px 0;
+  color: rgb(42, 45, 71);
+  width: 60%;
+}
+
+main h2, h3{
+  color: rgb(42, 45, 71);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+.galeria{
+  text-align: center;
+  color: rgb(42, 45, 71);
+  font-size: 1rem;
+  width: 60%;
+}
+.galeria p{
+  padding: 0px 0px 40px 0px;
+  
+}
+.galeria img{
+  text-align: center;
+  padding: 1px 1px;
+}
+.p-servicios{
+  color: rgb(42, 45, 71);
+  padding: 0em 10em 8em 10em;
+}
+.servicios{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(42, 45, 71);
+  color: rgb(214, 212, 212);
+  width: 20em;
+  font-size: 0.8rem;
+  margin: 7px 7px 80px 7px;
+}
+article img{
+  border-radius: 500px;
+  width: 60%;
+  align-self: center;
+  position: relative;
+  top: -6em;
+}
+article h3{
+  color: rgb(214, 212, 212);
+  font-size: 1.4rem;
+  font-weight:900;
+  position: relative;
+  top: -2em;
+}
+article p{
+  position: relative;
+  top: -2em;
+}
+article button{
+  color: rgb(214, 212, 212);
+  background-color: rgb(157, 62, 28);
+  border-radius: 10px;
+  font-size: 1em;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 80%;
+  align-self: center;
+}
+
+footer{
+  background-color: rgb(42, 45, 71);
+  color: rgb(214, 212, 212);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+footer section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+footer section h4{
+  font-size: 1.2rem;
+  padding: 4px;
+}
+
+#logo-footer{
+  padding: 30px;
+  width: 15%;
+}
+#logo-footer img{
+  width: 8em;
+  border-radius: 15px;
+}
+#empresa-footer{
+  padding: 5px 30px 10px 0px;
+  font-size: 0.7em;
+  width: 23%;
+  text-align: center;
+}
+#contacto-footer{
+  padding: 0px;
+  font-size: 0.4em;
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#contacto-footer img{
+  width: 3em;
+  padding: 0px 5px 5px 50px;
+}
+iframe{
+  width: 40em;
+  height: 15em;
+  padding: 0.9em;
+}
+.p-contacto{
+  font-size: 3em;
+  padding-right: 5em;
+}
+#redes-footer{
+  padding: 5px;
+  font-size: 0.7em;
+  width: 25%;
+}
+#redes-footer img{
+  width: 3em;
+}
+#derechos-footer{
+  background-color: white;
+  color: rgb(42, 45, 71);
+  width: 100%;
+  padding: 2px;
+  font-size: smaller;
+  text-align: center;
+  justify-content: center;
+}
+
+/********************************/
+/*CSS extra para Contacto.html:*/
+/******************************/
+#h1-form{
+  padding-bottom: 40px;
+}
+#formulario{
+  background-color: rgb(42, 45, 71);
+  padding: 20px;
+  align-items: center;
+  width: 20em;
+}
+#formulario #primera{
+  display: none;
+}
+#formulario label{
+  display: flex;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px white;
+  margin: 10px;
+}
+#formulario input{
+  width: 100em;
+  border: none;
+}
+#formulario button{
+  background-color: rgb(157, 62, 28);
+  color: rgb(214, 212, 212);
+  padding: 5px;
+  margin-top: 15px;
+}
+#contacto-form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+}
+aside{
+  text-align: left;
+  width: 20em;
+  color: grey;
+  padding-left: 5em;
+}
+aside label input{
+  background-color: rgb(180, 179, 179);
+  padding: 5px;
+}
+aside button{
+  background-color: rgb(42, 45, 71);
+  color: rgb(214, 212, 212);
+  padding: 5px;
+}
+/********************************/
+/*CSS extra para Mensajes.html:*/
+/******************************/
+#listado{
+  text-align: left;
+  padding: 3em;
+  font-size: x-large;
+  font-style: oblique;
+  color: rgb(42, 45, 71);
+}
+
+/***************************/
+/*Responsive small devices*/
+/*************************/
+@media (max-width: 768px){
+  header{
+    height: 8em;
+  }
+  header .logo img{
+    width: 5em;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  header nav ul{
+    display: none;
+  }
+  header .nav-icon{
+    display: block;
+    margin-right: 30px;
+    cursor: pointer;
+    width: 4%;
+    font-size: 2rem;
+  }
+  header nav ul.active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1px;
+    left: 40vw;
+    width: 30%;
+    z-index: 2;
+    font-size: 8; 
+  }
+  header nav ul li{
+    display: flex;
+    width: 100%;
+    border: 2px solid rgb(214, 212, 212);
+    border-radius: 2px;
+    padding: 4px;
+    margin: 2px;
+  }
+  header nav ul li a{
+    color: rgb(214, 212, 212);
+  }
+  .galeria{
+    width: 100%;
+    text-align: center;
+  }
+  .galeria p{
+    padding: 0px 0px 0px 0px;
+  }
+
+  #logo-footer img{
+    width: 12%;
+    border-radius: 15px;
+  } 
+  #logo-footer{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  footer section{
+    flex-direction: column;
+    width: 100%;
+  }
+  #empresa-footer, #contacto-footer, #redes-footer, iframe{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+  }
+  .p-contacto{
+    padding-right: 10em;
+  }
+  /*****************************/
+  /*@media para Contacto.html:*/
+  /***************************/
+  #contacto-form{
+    display: flex;
+    flex-direction: column;
+  }
+  #formulario{
+    padding: 0px;
+  }
+  aside{
+    padding-left: 0;
+  }
+  /*****************************/
+  /*@media para Mensajes.html:*/
+  /***************************/
+  #mensajes-recibidos{
+    font-size: 1.5rem;
+  }
+  #listado{
+    font-size: medium;
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "celular": "092547589",
+      "email": "juan@correo.com",
+      "mensaje": "Excelente servicio"
+    },
+    {
+      "id": 2,
+      "nombre": "Pedro",
+      "celular": "097052341",
+      "email": "pedro@correo.com",
+      "mensaje": "Impecable el trato!"
+    },
+    {
+      "id": 3,
+      "nombre": "Mariana",
+      "celular": "095626254",
+      "email": "mariana@gmail.com",
+      "mensaje": "Tremendo servicio"
+    },
+    {
+      "id": 4,
+      "nombre": "Maru",
+      "celular": "098747475",
+      "email": "maru@gmail.com",
+      "mensaje": "Genial servicio"
+    },
+    {
+      "id": 5,
+      "nombre": "Matias",
+      "celular": "093256145",
+      "email": "matu@gmail.com",
+      "mensaje": "Muy lentos para realizar el trabajo"
+    },
+    {
+      "id": 6,
+      "nombre": "Adrian",
+      "celular": "094523587",
+      "email": "adrian@gmail.com",
+      "mensaje": "Muy prolijos"
+    },
+    {
+      "id": 7,
+      "nombre": "Felipe",
+      "celular": "091548752",
+      "email": "felipe@gmail.com",
+      "mensaje": "Necesito cotizar la remodelacion de mi cocina"
+    },
+    {
+      "id": 8,
+      "nombre": "Mariano",
+      "celular": "095626541",
+      "email": "mariano@gmail.com",
+      "mensaje": "Necesito cotización urgente"
+    },
+    {
+      "id": 9,
+      "nombre": "Maria",
+      "celular": "094751856",
+      "email": "maria@gmail.com",
+      "mensaje": "Necesito cotización de remodelación de casa completa"
+    },
+    {
+      "id": 10,
+      "nombre": "Federico",
+      "celular": "095626541",
+      "email": "fede@gmail.com",
+      "mensaje": "Muy conforme con el trabajo"
+    }
+  ]
+}

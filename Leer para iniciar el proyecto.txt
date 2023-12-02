@@ -1,0 +1,19 @@
+*************************************
+Información para iniciar el proyecto:
+*************************************
+
+1-Abrir la carpeta "Proyecto_1" desde la aplicación Visual Studio Code (VSC).
+2-Abrir una terminal en VSC, colocarse en el directorio jsonServer "..Proyecto_1/servidor/jsonServer".
+3-Instalar las librerías de express: npm install express
+4-Iniciar el proyecto: npm init -y
+5-Instalar los módulos: npm install -g json-server
+6-Iniciar el servidor: json-server --watch datos.json
+
+Información para acceso al json:
+Resources
+http://localhost:3000/data
+Home
+http://localhost:3000
+
+7-Para visualizar el sitio seleccionar el archivo index.html en VSC, al abrir hacer click en el botón "Go Live" de la barra baja en VSC.
+
